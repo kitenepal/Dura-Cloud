@@ -9,3 +9,19 @@
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+// primary_btn
+.primary_btn{
+	background-color: $primary-color;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0;
+	transition: 0.2s;
+	margin: 10px 0;
+	&:hover{
+		background-color: #fff;
+		color: $primary-color;
+		border: 1px solid $primary-color;
+	}
+}
