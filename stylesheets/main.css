@@ -1,3 +1,8 @@
+/* line 2, ../sass/base/_base.scss */
+.section-padding {
+  padding: 40px;
+}
+
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   border-radius: 0;
