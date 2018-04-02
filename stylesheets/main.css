@@ -62,3 +62,10 @@
 footer {
   background-color: #40e0d0;
 }
+
+/* line 4, ../sass/module/_footer.scss */
+.copyright {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 0;
+}
