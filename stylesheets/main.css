@@ -3,6 +3,13 @@
   padding: 40px;
 }
 
+/* line 7, ../sass/base/_base.scss */
+.heading-title {
+  padding: 20px 0 30px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* line 1, ../sass/module/_navbar.scss */
 .navbar {
   border-radius: 0;
