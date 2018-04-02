@@ -41,3 +41,8 @@
 .rates select, .rates input {
   border-radius: 0;
 }
+
+/* line 1, ../sass/module/_services.scss */
+.services {
+  background-color: #40e0d0;
+}
