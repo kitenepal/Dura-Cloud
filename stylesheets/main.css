@@ -46,3 +46,14 @@
 .services {
   background-color: #40e0d0;
 }
+
+/* line 1, ../sass/module/_message.scss */
+.message {
+  background-color: #222;
+  color: #fff;
+}
+/* line 4, ../sass/module/_message.scss */
+.message p:last-child {
+  font-weight: bold;
+  font-size: 25px;
+}
