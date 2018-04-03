@@ -33,6 +33,33 @@
   margin: 0;
 }
 
+/* line 5, ../sass/module/_navbar.scss */
+.navbar-inverse {
+  background-color: #fff;
+}
+
+/* line 8, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-brand {
+  color: #222;
+  font-weight: bold;
+}
+/* line 11, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-brand:hover {
+  color: #222;
+}
+
+/* line 15, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-nav > li > a {
+  color: #222;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* line 19, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #222;
+  text-decoration: underline;
+}
+
 /* line 2, ../sass/module/_rates.scss */
 .rates label {
   font-size: 20px;
@@ -44,7 +71,7 @@
 
 /* line 1, ../sass/module/_services.scss */
 .services {
-  background-color: #40e0d0;
+  background-color: #ccffff;
 }
 
 /* line 1, ../sass/module/_message.scss */
@@ -60,7 +87,7 @@
 
 /* line 1, ../sass/module/_footer.scss */
 footer {
-  background-color: #40e0d0;
+  background-color: #ccffff;
 }
 
 /* line 4, ../sass/module/_footer.scss */
