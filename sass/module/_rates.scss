@@ -2,7 +2,13 @@
 	label{
 		font-size: 20px;
 	}
+	.form-control{
+		border-color: $primary-color;
+	}
 	select, input{
 		border-radius: 0;
+		option{
+			font-weight: bold;
+		}
 	}
 }

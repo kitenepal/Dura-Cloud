@@ -65,8 +65,16 @@
   font-size: 20px;
 }
 /* line 5, ../sass/module/_rates.scss */
+.rates .form-control {
+  border-color: #222;
+}
+/* line 8, ../sass/module/_rates.scss */
 .rates select, .rates input {
   border-radius: 0;
+}
+/* line 10, ../sass/module/_rates.scss */
+.rates select option, .rates input option {
+  font-weight: bold;
 }
 
 /* line 1, ../sass/module/_services.scss */
