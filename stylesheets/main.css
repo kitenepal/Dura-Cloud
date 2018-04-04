@@ -112,8 +112,29 @@
 footer {
   background-color: #ccffff;
 }
+/* line 3, ../sass/module/_footer.scss */
+footer h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 7, ../sass/module/_footer.scss */
+footer ul {
+  padding-left: 0;
+}
+/* line 9, ../sass/module/_footer.scss */
+footer ul li {
+  list-style-type: none;
+}
+/* line 11, ../sass/module/_footer.scss */
+footer ul li a {
+  color: #222;
+}
+/* line 13, ../sass/module/_footer.scss */
+footer ul li a:hover {
+  text-decoration: none;
+}
 
-/* line 4, ../sass/module/_footer.scss */
+/* line 20, ../sass/module/_footer.scss */
 .copyright {
   background-color: #222;
   color: #fff;

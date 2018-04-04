@@ -1,5 +1,21 @@
 footer{
 	background-color: $secondary-color;
+	h3{
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	ul{
+		padding-left: 0;
+		li{
+		list-style-type: none;
+		a{
+			color: $primary-color;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+		}
+	}
 }
 .copyright{
 	background-color: $primary-color;
