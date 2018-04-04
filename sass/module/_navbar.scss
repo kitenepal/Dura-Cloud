@@ -4,6 +4,12 @@
 }
 .navbar-inverse{
 	background-color: #fff;
+	.navbar-toggle{
+		background-color: $primary-color;
+		&:focus{
+			background-color: $primary-color;
+		}
+	}
 }
 .navbar-inverse .navbar-brand{
 	color: $primary-color;

@@ -37,24 +37,32 @@
 .navbar-inverse {
   background-color: #fff;
 }
+/* line 7, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-toggle {
+  background-color: #222;
+}
+/* line 9, ../sass/module/_navbar.scss */
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #222;
+}
 
-/* line 8, ../sass/module/_navbar.scss */
+/* line 14, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-brand {
   color: #222;
   font-weight: bold;
 }
-/* line 11, ../sass/module/_navbar.scss */
+/* line 17, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-brand:hover {
   color: #222;
 }
 
-/* line 15, ../sass/module/_navbar.scss */
+/* line 21, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #222;
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 19, ../sass/module/_navbar.scss */
+/* line 25, ../sass/module/_navbar.scss */
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
   color: #222;
   text-decoration: underline;
