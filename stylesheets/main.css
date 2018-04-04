@@ -1,16 +1,25 @@
-/* line 2, ../sass/base/_base.scss */
+@import url("https://fonts.googleapis.com/css?family=Bitter");
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+/* line 4, ../sass/base/_base.scss */
+body {
+  font-family: 'Bitter', serif;
+}
+
+/* line 9, ../sass/base/_base.scss */
 .section-padding {
   padding: 40px;
 }
 
-/* line 7, ../sass/base/_base.scss */
+/* line 14, ../sass/base/_base.scss */
 .heading-title {
   padding: 20px 0 30px 0;
   text-transform: uppercase;
   font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 3px;
 }
 
-/* line 14, ../sass/base/_base.scss */
+/* line 23, ../sass/base/_base.scss */
 .primary_btn {
   background-color: #222;
   color: #fff;
@@ -20,7 +29,7 @@
   transition: 0.2s;
   margin: 10px 0;
 }
-/* line 22, ../sass/base/_base.scss */
+/* line 31, ../sass/base/_base.scss */
 .primary_btn:hover {
   background-color: #fff;
   color: #222;
