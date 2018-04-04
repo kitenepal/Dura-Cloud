@@ -68,6 +68,11 @@
   text-decoration: underline;
 }
 
+/* line 1, ../sass/module/_heroslider.scss */
+.carousel {
+  margin-top: 50px;
+}
+
 /* line 2, ../sass/module/_rates.scss */
 .rates label {
   font-size: 20px;
