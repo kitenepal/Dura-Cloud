@@ -1,3 +1,9 @@
 .services{
 	background-color: $secondary-color;
 }
+
+@media (max-width: 750px){
+	.services--content{
+		padding: 10px 0;
+	}
+}

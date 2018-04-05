@@ -104,6 +104,12 @@ body {
   background-color: #ccffff;
 }
 
+@media (max-width: 750px) {
+  /* line 6, ../sass/module/_services.scss */
+  .services--content {
+    padding: 10px 0;
+  }
+}
 /* line 1, ../sass/module/_message.scss */
 .message {
   background-color: #222;
