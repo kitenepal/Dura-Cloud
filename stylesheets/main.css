@@ -82,12 +82,39 @@ body {
   margin-top: 50px;
 }
 
+/* line 5, ../sass/module/_heroslider.scss */
+.carousel-inner .item img {
+  -webkit-filter: blur(5px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+
 @media (max-width: 750px) {
-  /* line 6, ../sass/module/_heroslider.scss */
+  /* line 11, ../sass/module/_heroslider.scss */
   .carousel-inner .item img {
     -webkit-filter: blur(5px);
     /* Safari 6.0 - 9.0 */
     filter: blur(5px);
+  }
+}
+@media screen and (min-width: 750px) {
+  /* line 18, ../sass/module/_heroslider.scss */
+  .carousel-caption {
+    top: 25%;
+    left: 15%;
+  }
+  /* line 22, ../sass/module/_heroslider.scss */
+  .carousel-caption h1 {
+    font-size: 60px;
+  }
+  /* line 24, ../sass/module/_heroslider.scss */
+  .carousel-caption h1 span {
+    color: skyblue;
+  }
+  /* line 28, ../sass/module/_heroslider.scss */
+  .carousel-caption p {
+    font-weight: bold;
+    font-size: 30px;
   }
 }
 /* line 2, ../sass/module/_rates.scss */

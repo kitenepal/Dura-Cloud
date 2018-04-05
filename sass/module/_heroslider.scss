@@ -2,9 +2,32 @@
 	margin-top: 50px;
 }
 
+.carousel-inner .item img{
+		-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    	filter: blur(5px);
+	}
+
 @media (max-width: 750px){
 	.carousel-inner .item img{
 		-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
     	filter: blur(5px);
+	}
+}
+
+@media screen and (min-width: 750px){
+	.carousel-caption{
+		top: 25%;
+		left: 15%;
+		// text-align: left;
+		h1{
+			font-size: 60px;
+			span{
+				color: skyblue;
+			}
+		}
+		p{
+			font-weight: bold;
+			font-size: 30px;
+		}
 	}
 }
