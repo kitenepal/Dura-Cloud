@@ -82,6 +82,14 @@ body {
   margin-top: 50px;
 }
 
+@media (max-width: 750px) {
+  /* line 6, ../sass/module/_heroslider.scss */
+  .carousel-inner .item img {
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+  }
+}
 /* line 2, ../sass/module/_rates.scss */
 .rates label {
   font-size: 20px;
