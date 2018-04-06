@@ -25,5 +25,6 @@
 	&:hover, &:focus{
 		color: $primary-color;
 		text-decoration: underline;
+		outline: none;
 	}
 }
