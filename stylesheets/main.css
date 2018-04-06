@@ -77,6 +77,75 @@ body {
   text-decoration: underline;
 }
 
+/* line 1, ../sass/module/_login.scss */
+#login-modal .modal-dialog {
+  width: 350px;
+}
+
+/* line 5, ../sass/module/_login.scss */
+#login-modal input[type=text], input[type=password] {
+  margin-top: 10px;
+}
+
+/* line 9, ../sass/module/_login.scss */
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+  border: 1px solid #dadfe1;
+  height: 30px;
+  line-height: 28px;
+  transition: all ease-in-out 500ms;
+}
+
+/* line 18, ../sass/module/_login.scss */
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+  border: 1px solid #68c3a3;
+  background-color: #c8f7c5;
+}
+
+/* line 25, ../sass/module/_login.scss */
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+  border: 1px solid #eb575b;
+  background-color: #ffcad1;
+}
+
+/* line 32, ../sass/module/_login.scss */
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+  width: 30px;
+  float: left;
+  line-height: 28px;
+  text-align: center;
+  background-color: #dadfe1;
+  margin-right: 5px;
+  transition: all ease-in-out 500ms;
+}
+
+/* line 44, ../sass/module/_login.scss */
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+  background-color: #68c3a3 !important;
+}
+
+/* line 50, ../sass/module/_login.scss */
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+  background-color: #eb575b !important;
+}
+
+/* line 56, ../sass/module/_login.scss */
+#img_logo {
+  max-height: 100px;
+  max-width: 100px;
+}
+
 /* line 1, ../sass/module/_heroslider.scss */
 .carousel {
   margin-top: 50px;
