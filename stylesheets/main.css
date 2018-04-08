@@ -169,19 +169,25 @@ body {
 }
 @media screen and (min-width: 750px) {
   /* line 18, ../sass/module/_heroslider.scss */
-  .carousel-caption {
-    top: 25%;
-    left: 15%;
+  .carousel-inner {
+    height: 70vh;
   }
-  /* line 22, ../sass/module/_heroslider.scss */
+
+  /* line 21, ../sass/module/_heroslider.scss */
+  .carousel-caption {
+    top: 15vh;
+    left: 25vh;
+    text-align: left;
+  }
+  /* line 25, ../sass/module/_heroslider.scss */
   .carousel-caption h1 {
     font-size: 60px;
   }
-  /* line 24, ../sass/module/_heroslider.scss */
+  /* line 27, ../sass/module/_heroslider.scss */
   .carousel-caption h1 span {
     color: skyblue;
   }
-  /* line 28, ../sass/module/_heroslider.scss */
+  /* line 31, ../sass/module/_heroslider.scss */
   .carousel-caption p {
     font-weight: bold;
     font-size: 30px;
