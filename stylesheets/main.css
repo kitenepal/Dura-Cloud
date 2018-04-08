@@ -281,17 +281,21 @@ footer ul li a:hover {
   padding: 10px 0;
 }
 
-/* line 2, ../sass/module/pages/_offer.scss */
+/* line 1, ../sass/module/pages/_offer.scss */
+.offer {
+  margin-top: 40px;
+}
+/* line 3, ../sass/module/pages/_offer.scss */
 .offer hr {
   border: 1px solid #222;
 }
 @media (min-width: 750px) {
-  /* line 6, ../sass/module/pages/_offer.scss */
+  /* line 7, ../sass/module/pages/_offer.scss */
   .offer .row .col-md-2 {
     border-right: 1px solid #222;
     height: 80px;
   }
-  /* line 9, ../sass/module/pages/_offer.scss */
+  /* line 10, ../sass/module/pages/_offer.scss */
   .offer .row .col-md-2 h2 {
     margin: 0;
   }
