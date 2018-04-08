@@ -1,0 +1,12 @@
+.offer{
+	hr{
+		border: 1px solid $primary-color;
+	}
+	.row .col-md-2{
+		border-right: 1px solid $primary-color;
+    	height: 100px;
+    	h2{
+    		margin: 0;
+    	}
+	}
+}

@@ -273,3 +273,17 @@ footer ul li a:hover {
   color: #fff;
   padding: 10px 0;
 }
+
+/* line 2, ../sass/module/pages/_offer.scss */
+.offer hr {
+  border: 1px solid #222;
+}
+/* line 5, ../sass/module/pages/_offer.scss */
+.offer .row .col-md-2 {
+  border-right: 1px solid #222;
+  height: 100px;
+}
+/* line 8, ../sass/module/pages/_offer.scss */
+.offer .row .col-md-2 h2 {
+  margin: 0;
+}
