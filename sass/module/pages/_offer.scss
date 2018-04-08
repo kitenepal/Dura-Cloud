@@ -2,11 +2,13 @@
 	hr{
 		border: 1px solid $primary-color;
 	}
-	.row .col-md-2{
+	@media (min-width: 750px){
+		.row .col-md-2{
 		border-right: 1px solid $primary-color;
-    	height: 100px;
+    	height: 80px;
     	h2{
     		margin: 0;
     	}
+	}
 	}
 }
