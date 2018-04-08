@@ -7,14 +7,6 @@
     	filter: blur(5px);
 	}
 
-@media (max-width: 750px){
-	.carousel-inner .item img{
-		-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
-    	filter: blur(5px);
-	}
-}
-
-@media screen and (min-width: 750px){
 	.carousel-inner{
 		height: 70vh;
 	}
@@ -31,6 +23,33 @@
 		p{
 			font-weight: bold;
 			font-size: 30px;
+		}
+	}
+
+@media (max-width: 750px){
+	.carousel-inner .item img{
+		-webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    	filter: blur(5px);
+	}
+}
+
+@media screen and (max-width: 750px){
+	.carousel-inner{
+		height: 30vh;
+	}
+	.carousel-caption{
+		top: 0;
+		left: 10vh;
+		text-align: left;
+		h1{
+			font-size: 20px;
+		}
+		p{
+			font-size: 15px;
+			font-weight: normal;			
+		}
+		button{
+			font-size: 10px;
 		}
 	}
 }

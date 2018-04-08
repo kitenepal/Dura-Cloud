@@ -160,38 +160,63 @@ body {
   filter: blur(5px);
 }
 
+/* line 10, ../sass/module/_heroslider.scss */
+.carousel-inner {
+  height: 70vh;
+}
+
+/* line 13, ../sass/module/_heroslider.scss */
+.carousel-caption {
+  top: 15vh;
+  left: 25vh;
+  text-align: left;
+}
+/* line 17, ../sass/module/_heroslider.scss */
+.carousel-caption h1 {
+  font-size: 60px;
+}
+/* line 19, ../sass/module/_heroslider.scss */
+.carousel-caption h1 span {
+  color: skyblue;
+}
+/* line 23, ../sass/module/_heroslider.scss */
+.carousel-caption p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
 @media (max-width: 750px) {
-  /* line 11, ../sass/module/_heroslider.scss */
+  /* line 30, ../sass/module/_heroslider.scss */
   .carousel-inner .item img {
     -webkit-filter: blur(5px);
     /* Safari 6.0 - 9.0 */
     filter: blur(5px);
   }
 }
-@media screen and (min-width: 750px) {
-  /* line 18, ../sass/module/_heroslider.scss */
+@media screen and (max-width: 750px) {
+  /* line 37, ../sass/module/_heroslider.scss */
   .carousel-inner {
-    height: 70vh;
+    height: 30vh;
   }
 
-  /* line 21, ../sass/module/_heroslider.scss */
+  /* line 40, ../sass/module/_heroslider.scss */
   .carousel-caption {
-    top: 15vh;
-    left: 25vh;
+    top: 0;
+    left: 10vh;
     text-align: left;
   }
-  /* line 25, ../sass/module/_heroslider.scss */
+  /* line 44, ../sass/module/_heroslider.scss */
   .carousel-caption h1 {
-    font-size: 60px;
+    font-size: 20px;
   }
-  /* line 27, ../sass/module/_heroslider.scss */
-  .carousel-caption h1 span {
-    color: skyblue;
-  }
-  /* line 31, ../sass/module/_heroslider.scss */
+  /* line 47, ../sass/module/_heroslider.scss */
   .carousel-caption p {
-    font-weight: bold;
-    font-size: 30px;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  /* line 51, ../sass/module/_heroslider.scss */
+  .carousel-caption button {
+    font-size: 10px;
   }
 }
 /* line 2, ../sass/module/_rates.scss */
