@@ -1,0 +1,20 @@
+.team{
+	text-align: center;
+	img{
+	opacity: 0.8;
+	transition: 0.2s;
+    &:hover{
+    	opacity: 1;
+    }
+	}
+}
+
+.team h4 {
+    margin-top: 20px;
+    color: $primary-color;
+}
+
+.social .fa{
+    color: $primary-color;
+    padding: 5px;
+}

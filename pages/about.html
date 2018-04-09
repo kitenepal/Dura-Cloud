@@ -1,92 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Offer</title>
-	<link rel="icon" href="http://logok.org/wp-content/uploads/2014/12/Guangfa-Bank-logo.png">
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<link rel="stylesheet" href="../stylesheets/main.css">
-</head>
-<body>
-	<!-- navbar -->
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-	  <div class="container">
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span> 
-	      </button>
-	      <a class="navbar-brand" href="#">DURACLOUD</a>
-	    </div>
-	    <div class="collapse navbar-collapse" id="myNavbar">
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">Offer</a></li>
-	        <li><a href="#">Pricing</a></li>
-	        <li><a href="#">About</a></li> 
-	        <li><a href="#">Support</a></li> 
-	        <li><a href="#">Contact</a></li> 
-	        <li><a href="#">Blog</a></li> 
-	        <li><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
-	      </ul>
-	    </div>
-	  </div>
-	</nav>
-	<!-- /navbar -->
 
-	<!-- login form -->
-	<!-- BEGIN # MODAL LOGIN -->
-<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;" align="center">
-    	<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header" align="center">
-					<img class="img-circle" id="img_logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_S9DUg_S9CHf-DxgcNbxYzZmibzud95wxTQslnreREOxA1ch1">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-					</button>
-				</div>
-                
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer</title>
+    <link rel="icon" href="http://logok.org/wp-content/uploads/2014/12/Guangfa-Bank-logo.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">DURACLOUD</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /navbar -->
+    <!-- login form -->
+    <!-- BEGIN # MODAL LOGIN -->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;" align="center">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" align="center">
+                    <img class="img-circle" id="img_logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_S9DUg_S9CHf-DxgcNbxYzZmibzud95wxTQslnreREOxA1ch1">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>
+                </div>
                 <!-- Begin # DIV Form -->
                 <div id="div-forms">
-                
                     <!-- Begin # Login Form -->
                     <form id="login-form">
-		                <div class="modal-body">
-				    		<div id="div-login-msg">
+                        <div class="modal-body">
+                            <div id="div-login-msg">
                                 <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
                                 <span id="text-login-msg">Type your username and password.</span>
                             </div>
-				    		<input id="login_username" class="form-control" type="text" placeholder="Username" required>
-				    		<input id="login_password" class="form-control" type="password" placeholder="Password" required>
+                            <input id="login_username" class="form-control" type="text" placeholder="Username" required>
+                            <input id="login_password" class="form-control" type="password" placeholder="Password" required>
                             <div class="checkbox">
                                 <label>
                                     <input type="checkbox"> Remember me
                                 </label>
                             </div>
-        		    	</div>
-				        <div class="modal-footer">
+                        </div>
+                        <div class="modal-footer">
                             <div>
                                 <button type="submit" class="btn primary_btn btn-lg btn-block">Login</button>
                             </div>
-				    	    <div>
+                            <div>
                                 <button id="login_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
                                 <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
                             </div>
-				        </div>
+                        </div>
                     </form>
                     <!-- End # Login Form -->
-                    
                     <!-- Begin | Lost Password Form -->
                     <form id="lost-form" style="display:none;">
-    	    		    <div class="modal-body">
-		    				<div id="div-lost-msg">
+                        <div class="modal-body">
+                            <div id="div-lost-msg">
                                 <div id="icon-lost-msg" class="glyphicon glyphicon-chevron-right"></div>
                                 <span id="text-lost-msg">Type your e-mail.</span>
                             </div>
-		    				<input id="lost_email" class="form-control" type="text" placeholder="E-Mail" required>
-            			</div>
-		    		    <div class="modal-footer">
+                            <input id="lost_email" class="form-control" type="text" placeholder="E-Mail" required>
+                        </div>
+                        <div class="modal-footer">
                             <div>
                                 <button type="submit" class="btn primary_btn btn-lg btn-block">Send</button>
                             </div>
@@ -94,22 +93,21 @@
                                 <button id="lost_login_btn" type="button" class="btn btn-link">Log In</button>
                                 <button id="lost_register_btn" type="button" class="btn btn-link">Register</button>
                             </div>
-		    		    </div>
+                        </div>
                     </form>
                     <!-- End | Lost Password Form -->
-                    
                     <!-- Begin | Register Form -->
                     <form id="register-form" style="display:none;">
-            		    <div class="modal-body">
-		    				<div id="div-register-msg">
+                        <div class="modal-body">
+                            <div id="div-register-msg">
                                 <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
                                 <span id="text-register-msg">Register an account.</span>
                             </div>
-		    				<input id="register_username" class="form-control" type="text" placeholder="Username" required>
+                            <input id="register_username" class="form-control" type="text" placeholder="Username" required>
                             <input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
                             <input id="register_password" class="form-control" type="password" placeholder="Password" required>
-            			</div>
-		    		    <div class="modal-footer">
+                        </div>
+                        <div class="modal-footer">
                             <div>
                                 <button type="submit" class="btn primary_btn btn-lg btn-block">Register</button>
                             </div>
@@ -117,93 +115,154 @@
                                 <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
                                 <button id="register_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
                             </div>
-		    		    </div>
+                        </div>
                     </form>
                     <!-- End | Register Form -->
-                    
                 </div>
                 <!-- End # DIV Form -->
-                
-			</div>
-		</div>
-	</div>
+            </div>
+        </div>
+    </div>
     <!-- END # MODAL LOGIN -->
-	<!-- /login form -->
-
-	<div class="container section-padding">
-		<div class="row">
-			<div class="col-md-12">
-				<h1 class="heading-title">About PayLane</h1>
-				<p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laborum quibusdam vero dolore ex eum aspernatur accusamus accusantium consequatur cumque repudiandae, repellat, voluptatibus neque cupiditate quam, harum nobis nemo labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laborum quibusdam vero dolore ex eum aspernatur accusamus accusantium consequatur cumque repudiandae, repellat, voluptatibus neque cupiditate quam, harum nobis nemo labore!</p>
-			</div>
-		</div>
-	</div>
-
-	<!-- footer -->
-	<footer class="section-padding">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-2 col-sm-4">
-					<h3>Resources</h3>
-					<ul>
-						<li><a href="#">Merchant / Partner Login</a></li>
-						<li><a href="#">Support</a></li>
-						<li><a href="#">Resource Library</a></li>
-						<li><a href="#">Developers</a></li>
-						<li><a href="#">Gateway & Portal Status</a></li>
-						<li><a href="#">Contact Us</a></li>
-					</ul>
-				</div>
-				<div class="col-md-2 col-sm-4">
-					<h3>About Us</h3>
-					<ul>
-						<li><a href="#">Locations</a></li>
-						<li><a href="#">Leadership Team</a></li>
-						<li><a href="#">BluePay Cares</a></li>
-						<li><a href="#">News</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Awards</a></li>
-					</ul>
-				</div>
-				<div class="col-md-3 col-sm-4">
-					<h3>Credit Card Processing</h3>
-					<ul>
-						<li><a href="#">Merchant Accounts</a></li>
-						<li><a href="#">Payment Gateway</a></li>
-						<li><a href="#">Virtual Terminal</a></li>
-						<li><a href="#">POS Systems</a></li>
-						<li><a href="#">Mobile</a></li>
-						<li><a href="#">PCI Compliance</a></li>
-					</ul>
-				</div>
-				<div class="col-md-5 col-sm-12">
-					<h3>U.S. Headquarters and Merchant Support Center</h3>
-					<p>Merchant Support Team(866) 739-8324Sales844.353.9916</p>
-					<p>Partner Support Team(844) 869-0693</p>
-					<p>Partner Sales Team866.935.2997</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<div class="copyright">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<p>© 2018 BluePay Processing, LLCPrivacy PolicyTerms of UseSite Map<br/>
-						Site Credits<br/>
-						BluePay Processing, LLC is a registered ISO of Wells Fargo Bank, N.A., Concord, CA, 94524 U.S.A.<br/>
-						BluePay Canada ULC, is a Registered ISO/MSP of Peoples Trust Company, Vancouver, Canada.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /footer -->
-
-<!-- ajax jquery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- bootstrap js -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<!-- login js -->
-<script src="../js/login.js"></script>
+    <!-- /login form -->
+    <div class="container section-padding">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="heading-title  ">About PayLane</h1>
+                <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laborum quibusdam vero dolore ex eum aspernatur accusamus accusantium consequatur cumque repudiandae, repellat, voluptatibus neque cupiditate quam, harum nobis nemo labore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam laborum quibusdam vero dolore ex eum aspernatur accusamus accusantium consequatur cumque repudiandae, repellat, voluptatibus neque cupiditate quam, harum nobis nemo labore!</p>
+            </div>
+            <div class="col-md-12">
+                <h1 class="heading-title text-center">Meet the team</h1>
+                <div class="team">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img class="img-rounded" alt="team-photo" src="http://www.iconninja.com/files/442/393/209/back-to-the-future-marty-mcfly-marty-man-people-person-mcfly-icon.svg" width="100%">
+                            <div class="team-member">
+                                <h4>John Doe</h4>
+                                <p>Web developer</p>
+                            </div>
+                            <p class="social">
+                                <a href="#"><span class="fa fa-facebook-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-twitter-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-linkedin-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-google-plus-square fa-2x"></span></a>
+                            </p>
+                        </div>
+                        <!--col-lg-4 -->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img class="img-rounded" alt="team-photo" src="http://www.iconninja.com/files/442/393/209/back-to-the-future-marty-mcfly-marty-man-people-person-mcfly-icon.svg" width="100%">
+                            <div class="team-member">
+                                <h4>Jack Doe</h4>
+                                <p>Web designer</p>
+                            </div>
+                            <p class="social">
+                                <a href="#"><span class="fa fa-facebook-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-twitter-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-linkedin-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-google-plus-square fa-2x"></span></a>
+                            </p>
+                        </div>
+                        <!--col-lg-4 -->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img class="img-rounded" alt="team-photo" src="http://www.iconninja.com/files/442/393/209/back-to-the-future-marty-mcfly-marty-man-people-person-mcfly-icon.svg" width="100%">
+                            <div class="team-member">
+                                <h4>James</h4>
+                                <p>CEO</p>
+                            </div>
+                            <p class="social">
+                                <a href="#"><span class="fa fa-facebook-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-twitter-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-linkedin-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-google-plus-square fa-2x"></span></a>
+                            </p>
+                        </div>
+                        <!-- col-lg-4 -->
+                        <!--col-lg-4 -->
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+                            <img class="img-rounded" alt="team-photo" src="http://www.iconninja.com/files/442/393/209/back-to-the-future-marty-mcfly-marty-man-people-person-mcfly-icon.svg" width="100%">
+                            <div class="team-member">
+                                <h4>Jack Doe</h4>
+                                <p>Web designer</p>
+                            </div>
+                            <p class="social">
+                                <a href="#"><span class="fa fa-facebook-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-twitter-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-linkedin-square fa-2x"></span></a>
+                                <a href="#"><span class="fa fa-google-plus-square fa-2x"></span></a>
+                            </p>
+                        </div>
+                        <!--col-lg-4 -->
+                    </div>
+                    <!-- row text-center -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Merchant / Partner Login</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Resource Library</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Gateway & Portal Status</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Leadership Team</a></li>
+                        <li><a href="#">BluePay Cares</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Awards</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                    <h3>Credit Card Processing</h3>
+                    <ul>
+                        <li><a href="#">Merchant Accounts</a></li>
+                        <li><a href="#">Payment Gateway</a></li>
+                        <li><a href="#">Virtual Terminal</a></li>
+                        <li><a href="#">POS Systems</a></li>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">PCI Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <h3>U.S. Headquarters and Merchant Support Center</h3>
+                    <p>Merchant Support Team(866) 739-8324Sales844.353.9916</p>
+                    <p>Partner Support Team(844) 869-0693</p>
+                    <p>Partner Sales Team866.935.2997</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>© 2018 BluePay Processing, LLCPrivacy PolicyTerms of UseSite Map
+                        <br/> Site Credits
+                        <br/> BluePay Processing, LLC is a registered ISO of Wells Fargo Bank, N.A., Concord, CA, 94524 U.S.A.
+                        <br/> BluePay Canada ULC, is a Registered ISO/MSP of Peoples Trust Company, Vancouver, Canada.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /footer -->
+    <!-- ajax jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- login js -->
+    <script src="../js/login.js"></script>
 </body>
+
 </html>

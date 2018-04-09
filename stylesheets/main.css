@@ -325,3 +325,29 @@ footer ul li a:hover {
     margin: 0;
   }
 }
+
+/* line 1, ../sass/module/pages/_about-page.scss */
+.team {
+  text-align: center;
+}
+/* line 3, ../sass/module/pages/_about-page.scss */
+.team img {
+  opacity: 0.8;
+  transition: 0.2s;
+}
+/* line 6, ../sass/module/pages/_about-page.scss */
+.team img:hover {
+  opacity: 1;
+}
+
+/* line 12, ../sass/module/pages/_about-page.scss */
+.team h4 {
+  margin-top: 20px;
+  color: #222;
+}
+
+/* line 17, ../sass/module/pages/_about-page.scss */
+.social .fa {
+  color: #222;
+  padding: 5px;
+}
