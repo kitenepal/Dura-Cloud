@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offer</title>
+    <link rel="icon" href="http://logok.org/wp-content/uploads/2014/12/Guangfa-Bank-logo.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheets/main.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">DURACLOUD</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /navbar -->
+    <!-- login form -->
+    <!-- BEGIN # MODAL LOGIN -->
+    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;" align="center">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" align="center">
+                    <img class="img-circle" id="img_logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_S9DUg_S9CHf-DxgcNbxYzZmibzud95wxTQslnreREOxA1ch1">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <!-- Begin # DIV Form -->
+                <div id="div-forms">
+                    <!-- Begin # Login Form -->
+                    <form id="login-form">
+                        <div class="modal-body">
+                            <div id="div-login-msg">
+                                <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-login-msg">Type your username and password.</span>
+                            </div>
+                            <input id="login_username" class="form-control" type="text" placeholder="Username" required>
+                            <input id="login_password" class="form-control" type="password" placeholder="Password" required>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn primary_btn btn-lg btn-block">Login</button>
+                            </div>
+                            <div>
+                                <button id="login_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                                <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- End # Login Form -->
+                    <!-- Begin | Lost Password Form -->
+                    <form id="lost-form" style="display:none;">
+                        <div class="modal-body">
+                            <div id="div-lost-msg">
+                                <div id="icon-lost-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-lost-msg">Type your e-mail.</span>
+                            </div>
+                            <input id="lost_email" class="form-control" type="text" placeholder="E-Mail" required>
+                        </div>
+                        <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn primary_btn btn-lg btn-block">Send</button>
+                            </div>
+                            <div>
+                                <button id="lost_login_btn" type="button" class="btn btn-link">Log In</button>
+                                <button id="lost_register_btn" type="button" class="btn btn-link">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- End | Lost Password Form -->
+                    <!-- Begin | Register Form -->
+                    <form id="register-form" style="display:none;">
+                        <div class="modal-body">
+                            <div id="div-register-msg">
+                                <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <span id="text-register-msg">Register an account.</span>
+                            </div>
+                            <input id="register_username" class="form-control" type="text" placeholder="Username" required>
+                            <input id="register_email" class="form-control" type="text" placeholder="E-Mail" required>
+                            <input id="register_password" class="form-control" type="password" placeholder="Password" required>
+                        </div>
+                        <div class="modal-footer">
+                            <div>
+                                <button type="submit" class="btn primary_btn btn-lg btn-block">Register</button>
+                            </div>
+                            <div>
+                                <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
+                                <button id="register_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- End | Register Form -->
+                </div>
+                <!-- End # DIV Form -->
+            </div>
+        </div>
+    </div>
+    <!-- END # MODAL LOGIN -->
+    <!-- /login form -->
+    <div class="section-padding">
+        <div class="container">
+            <h1 class="heading-title">Contact Us</h1>
+            <div class="row">
+                
+                <div class="col-md-6">
+                    <h3>Leave us message</h3>
+                    <form>
+                     <div class="form-group">
+                        <input type="text" class="form-control" id="" placeholder="Fill Name">
+                      </div>
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="" placeholder="Subject">
+                      </div>
+                      <div class="form-group">
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Choose Country</option>
+                          <option>Nepal</option>
+                          <option>Nepal</option>
+                          <option>Nepal</option>
+                          <option>Nepal</option>
+                        </select>
+                      </div>
+                        <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="leave us message"></textarea>
+                      </div>
+                      <button type="submit" class="btn primary_btn">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6 thumbnail">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d220.85189575088395!2d85.42579148625113!3d27.666906723576737!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2056c558181268ef!2sKite+Nepal!5e0!3m2!1sen!2snp!4v1523257860250" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-4">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Merchant / Partner Login</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Resource Library</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Gateway & Portal Status</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-4">
+                    <h3>About Us</h3>
+                    <ul>
+                        <li><a href="#">Locations</a></li>
+                        <li><a href="#">Leadership Team</a></li>
+                        <li><a href="#">BluePay Cares</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Awards</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                    <h3>Credit Card Processing</h3>
+                    <ul>
+                        <li><a href="#">Merchant Accounts</a></li>
+                        <li><a href="#">Payment Gateway</a></li>
+                        <li><a href="#">Virtual Terminal</a></li>
+                        <li><a href="#">POS Systems</a></li>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">PCI Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <h3>U.S. Headquarters and Merchant Support Center</h3>
+                    <p>Merchant Support Team(866) 739-8324Sales844.353.9916</p>
+                    <p>Partner Support Team(844) 869-0693</p>
+                    <p>Partner Sales Team866.935.2997</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p>© 2018 BluePay Processing, LLCPrivacy PolicyTerms of UseSite Map
+                        <br/> Site Credits
+                        <br/> BluePay Processing, LLC is a registered ISO of Wells Fargo Bank, N.A., Concord, CA, 94524 U.S.A.
+                        <br/> BluePay Canada ULC, is a Registered ISO/MSP of Peoples Trust Company, Vancouver, Canada.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /footer -->
+    <!-- ajax jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- login js -->
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
